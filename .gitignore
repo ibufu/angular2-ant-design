@@ -1,0 +1,13 @@
+/node_modules
+/bower_components
+
+/.idea/*
+/.vscode
+
+/dist
+/tmp
+/typings
+
+npm-debug.log
+.DS_Store
+/.sass-cache

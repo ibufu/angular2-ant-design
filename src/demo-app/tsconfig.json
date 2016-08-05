@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "mapRoot": "/",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "outDir": "../../dist/",
+    "rootDir": "..",
+    "sourceMap": true,
+    "target": "es5",
+    "inlineSources": true,
+    "stripInternal": true,
+    "baseUrl": "",
+    "paths": {
+      "@angular2-ant-design/core/*": [
+        "./core/*",
+        "../core/*"
+      ],
+      "@angular2-ant-design/*": [
+        "./components/*",
+        "../components/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "genDir": "../../dist",
+    "skipTemplateCodegen": true,
+    "debug": true
+  },
+  "files": [
+    "main.ts",
+    "typings.d.ts"
+  ]
+}
